@@ -1,0 +1,7 @@
+X = int(input())
+B = input()
+B1, B2, B3 = map(int, list(B))
+print(X*B3)
+print(X*B2)
+print(X*B1)
+print(X*int(B))
